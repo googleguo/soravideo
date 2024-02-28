@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev --port 80",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "cross-env BUILD_MODE=export BUILD_APP=1 next build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
@@ -19,6 +20,7 @@
     "react-dom": "^18",
     "undici": "^6.6.2",
     "uuid": "^9.0.1"
+
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -107,12 +107,12 @@ const PageComponent = ({
               <div className="mb-5 max-w-[528px] lg:mb-8">
                 <p className="text-[#7c8aaa] text-xl">{indexLanguageText.pDescription}</p>
               </div>
-              <a
-                href="https://www.producthunt.com/posts/sorawebui?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-sorawebui"
-                target="_blank"><img
-                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=440945&theme=light"
-                alt="SoraWebui - Open&#0045;source&#0032;Sora&#0032;Web&#0032;Client | Product Hunt"
-              /></a>
+              {/*<a*/}
+              {/*  href="https://www.producthunt.com/posts/sorawebui?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-sorawebui"*/}
+              {/*  target="_blank"><img*/}
+              {/*  src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=440945&theme=light"*/}
+              {/*  alt="SoraWebui - Open&#0045;source&#0032;Sora&#0032;Web&#0032;Client | Product Hunt"*/}
+              {/*/></a>*/}
             </div>
             <div>
               <div
@@ -255,8 +255,8 @@ const PageComponent = ({
                     {questionText.h2_2_p3}
                   </p>
                   <p>
-                    {questionText.h2_2_p4a}<Link href={"https://sorawebui.com/"}
-                                                 className={"text-blue-500"}>https://sorawebui.com/</Link>{questionText.h2_2_p4b}<Link
+                    {questionText.h2_2_p4a}<Link href={"https://www.soravideo.ltd/"}
+                                                 className={"text-blue-500"}>https://www.soravideo.ltd/</Link>{questionText.h2_2_p4b}<Link
                     href={"https://github.com/SoraWebui/SoraWebui"}
                     className={"text-blue-500"}>https://github.com/SoraWebui/SoraWebui</Link>.
                   </p>

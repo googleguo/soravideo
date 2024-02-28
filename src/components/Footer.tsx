@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const navigation = {
   product: [
-    {name: 'SoraWebui', href: 'https://sorawebui.com'}
+    {name: 'SoraVideo', href: 'https://www.soravideo.ltd'}
   ],
   legal: [
     {name: 'Privacy Policy', href: '/privacy-policy'},
@@ -23,15 +23,15 @@ export default function Footer({
       <div className="mx-auto max-w-7xl px-6 py-4">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <a href={`/${locale}`}>
-              <Image
-                className="h-10"
-                src="/appicon.svg"
-                width={32}
-                height={32}
-                alt="Sorawebui.com"
-              />
-            </a>
+            {/*<a href={`/${locale}`}>*/}
+            {/*  <Image*/}
+            {/*    className="h-10"*/}
+            {/*    src="/appicon.svg"*/}
+            {/*    width={32}*/}
+            {/*    height={32}*/}
+            {/*    alt="soravideo.ltd"*/}
+            {/*  />*/}
+            {/*</a>*/}
             <p className="text-sm text-gray-300">
               {description}
             </p>
