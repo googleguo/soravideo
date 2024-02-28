@@ -154,8 +154,8 @@ export default function Header({
               <Image
                 style={{width: '200px', height: '133px'}}
                 src="/soravideo.png"
-                width={32}
-                height={24}
+                width={200}
+                height={133}
                 alt="www.soravideo.ltd"/>
             </a>
             <button
