@@ -12,22 +12,24 @@ export const languages = [
     code: "zh-CN",
     lang: "zh",
     language: "简体中文",
-  },
-  {
-    code: "ko-KR",
-    lang: "ko",
-    language: "한국어",
-  },
-  {
-    code: "ja-JP",
-    lang: "ja",
-    language: "日本語",
   }
+  // ,
+  // {
+  //   code: "ko-KR",
+  //   lang: "ko",
+  //   language: "한국어",
+  // },
+  // {
+  //   code: "ja-JP",
+  //   lang: "ja",
+  //   language: "日本語",
+  // }
 ]
 
 export const pathnames = {
   '/': '/',
-} satisfies Pathnames<typeof locales>;
+}
+satisfies Pathnames<typeof locales>;
 
 // Use the default: `always`，设置为 as-needed可不显示默认路由
 export const localePrefix = 'as-needed';

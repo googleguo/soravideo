@@ -62,8 +62,8 @@ export default function Header({
           {/*</a>*/}
           <a href={`/${locale}`} className="-m-1.5 ml-0.5 p-1.5" onClick={() => setShowLoadingModal(true)}>
             <Image
-              style={{width:'12rem',height:'8rem'}}
-              src="/soravideo.png"
+                style={{width: '200px', height: '133px'}}
+              src="/soralogo.png"
               width={200}
               height={133}
               alt="www.soravideo.ltd"/>
@@ -153,7 +153,7 @@ export default function Header({
             <a href={`/${locale}`} className="-m-1.5 ml-0.5 p-1.5" onClick={() => setShowLoadingModal(true)}>
               <Image
                 style={{width: '200px', height: '133px'}}
-                src="/soravideo.png"
+                src="/soralogo.png"
                 width={200}
                 height={133}
                 alt="www.soravideo.ltd"/>
