@@ -257,8 +257,8 @@ const PageComponent = ({
                   <p>
                     {questionText.h2_2_p4a}<Link href={"https://www.soravideo.ltd/"}
                                                  className={"text-blue-500"}>https://www.soravideo.ltd/</Link>{questionText.h2_2_p4b}<Link
-                    href={"https://github.com/SoraWebui/SoraWebui"}
-                    className={"text-blue-500"}>https://github.com/SoraWebui/SoraWebui</Link>.
+                    href={"https://github.com/googleguo/soravideo"}
+                    className={"text-blue-500"}>https://github.com/googleguo/soravideo</Link>.
                   </p>
                 </div>
               </div>

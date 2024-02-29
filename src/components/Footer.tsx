@@ -32,26 +32,44 @@ export default function Footer({
             {/*    alt="soravideo.ltd"*/}
             {/*  />*/}
             {/*</a>*/}
+
             <p className="text-sm text-gray-300">
               {description}
             </p>
+
           </div>
+
           <div className="mt-2 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
+                <span className="text-sm font-semibold leading-6 text-white">more information about sora, please follow us</span>
+                <Image
+                    className="w-200 h-133"
+                    src="/mp1.jpg"
+                    width={200}
+                    height={133}
+                    alt="公众号"/>
                 <div className="text-sm font-semibold leading-6 text-white"></div>
                 <ul role="list" className="mt-6 space-y-4">
 
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <div className="text-sm font-semibold leading-6 text-white"></div>
+
+                <div className="text-sm font-semibold leading-6 text-white">Exchange and mutual learning</div>
+                <Image
+                    className="w-200 h-133"
+                    src="/luckgather2.jpg"
+                    width={200}
+                    height={133}
+                    alt="wechat"/>
                 <ul role="list" className="mt-6 space-y-4">
 
                 </ul>
               </div>
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
+
               <div>
                 <div className="text-sm font-semibold leading-6 text-white">Product</div>
                 <ul role="list" className="mt-6 space-y-4">
